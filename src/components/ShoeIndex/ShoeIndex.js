@@ -46,23 +46,24 @@ const Wrapper = styled.div`
   display: flex;
   align-items: baseline;
   height: 100vh;
+  gap: 32px;
 `;
 
 const LeftColumn = styled.div`
-  flex: 1;
+  flex-basis: 248px;
   position: sticky;
   top: 0;
   align-self: flex-start;
 `;
 
 const MainColumn = styled.div`
-  flex: 4;
+  flex: 1;
   height: 0px;
 `;
 
 const Header = styled.header`
     display: flex;
-    align-items: center;
+    align-items: baseline;
 `;
 
 const Title = styled.h2`
